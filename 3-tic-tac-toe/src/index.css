@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: aliceblue;
+}
+
+.square {
+  width: 35px;
+  height: 35px;
+  background-color: #2ed2ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  border: 2px solid #000000;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+
+.board {
+  border: 1px solid rgb(43, 76, 234);
+  width: 107px;
+  height: 107px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.game {
+  display: flex;
+}
